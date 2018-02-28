@@ -5,8 +5,10 @@
   <p id="2">第二行的内容<p>
   <p id="3">第三行的内容<p>
   <p id="4">第四行的内容<p>
+  <p>innumb.i<p>
     
     <button onclick="change()">点击这里</button>
+    <button onclick="innumb()">点这里计数</button>
     
     <script>
     function change()
@@ -15,6 +17,13 @@
         document.getElementById("2").innerHTML="改变的第二行的内容";
         document.getElementById("3").innerHTML="改变的第三行的内容";
         document.getElementById("4").innerHTML="改变的第四行的内容";
+      }
+      
+      function innumb()
+      {
+        var i = 0;
+        i++;
+        return i;
       }
     </script>
   </body>
