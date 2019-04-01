@@ -36,7 +36,13 @@
       {
        
         i++;
-        document.getElementById("5").innerHTML=i;
+        if（i>=10）
+        {
+          i = 0;
+        }else
+        {
+          document.getElementById("5").innerHTML=i;
+        }
       }
     </script>
   </body>
